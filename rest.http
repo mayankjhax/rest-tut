@@ -1,0 +1,20 @@
+# POST  http://localhost:8000/posts HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "title": "My second post's title",
+#     "description": "The discription of my second post"
+# }
+
+
+# DELETE  http://localhost:8000/posts/605064185896869665199542
+
+# GET http://localhost:8000/posts
+
+PATCH http://localhost:8000/posts/6050634fa8baff961b86e1e3
+Content-Type: application/json
+
+{
+    "title":  "TITLE OF THE POST",
+    "description": "Hello, Mayank Jha"
+}
